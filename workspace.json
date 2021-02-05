@@ -18,6 +18,18 @@
             "root": "apps/java-api"
           }
         },
+        "test": {
+          "executor": "@nxrocks/nx-spring-boot:test",
+          "options": {
+            "root": "apps/java-api"
+          }
+        },
+        "clean": {
+          "executor": "@nxrocks/nx-spring-boot:clean",
+          "options": {
+            "root": "apps/java-api"
+          }
+        },
         "buildJar": {
           "executor": "@nxrocks/nx-spring-boot:buildJar",
           "options": {
